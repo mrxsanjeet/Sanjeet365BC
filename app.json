@@ -1,0 +1,23 @@
+{
+  "id": "fcc73451-0374-4451-9d5f-efa407a02d72",
+  "name": "ALMicrosoftLearning",
+  "publisher": "Alle_technologies",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50500
+  },
+  "runtime": "2.0"
+}
