@@ -2,7 +2,7 @@ codeunit 50100 MyExampleCodeunit
 {
     trigger OnRun()
     begin
-
+        //function need to be called here
     end;
 
     var
@@ -15,8 +15,8 @@ codeunit 50100 MyExampleCodeunit
         b: Integer;
         c: Integer;
     begin
-        a := 10;
-        b := 5;
+        a := 30;
+        b := 15;
         if a > b then
             c := a - b
         else
@@ -29,8 +29,8 @@ codeunit 50100 MyExampleCodeunit
         b: Integer;
         c: Integer;
     begin
-        a := 10;
-        b := 5;
+        a := 100;
+        b := 50;
         if a > b then begin
             c := a - b;
             Message('%1', c);
