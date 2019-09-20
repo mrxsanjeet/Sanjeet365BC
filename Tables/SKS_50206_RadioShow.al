@@ -7,7 +7,7 @@ table 50206 RadioShow
         field(1; "No."; Code[20])
         {
             DataClassification = ToBeClassified;
-
+            //adding a comment
         }
         field(10; "Radio show Type"; Code[10])
         {
@@ -35,20 +35,20 @@ table 50206 RadioShow
         {
             Editable = false;
             FieldClass = FlowField;
-            CalcFormula = average ("Listernership Entry"."Listener Count" where ("Radio Show No." = field ("No."), Date = field ("Date Filter")));
+            //CalcFormula = average ("Listernership Entry"."Listener Count" where ("Radio Show No." = field ("No."), Date = field ("Date Filter")));
 
         }
         field(110; "Audiance Share"; Decimal)
         {
-            Editable = false;
-            FieldClass = FlowField;
-            CalcFormula = average ("Listernership Entry"."Audience Share" where ("Radio Show No." = field ("No."), Date = field ("Date Filter")));
+            //Editable = false;
+            //FieldClass = FlowField;
+            //CalcFormula = average ("Listernership Entry"."Audience Share" where ("Radio Show No." = field ("No."), Date = field ("Date Filter")));
         }
         field(120; "Advertising Revenue"; Decimal)
         {
-            Editable = false;
-            FieldClass = FlowField;
-            CalcFormula = Sum ("Radio Show Entry"."Free Amount" where ("Radio show No." = field ("No."), "Data Format" = filter (Advertisment)));
+            //Editable = false;
+            //FieldClass = FlowField;
+            //CalcFormula = Sum ("Radio Show Entry"."Free Amount" where ("Radio show No." = field ("No."), "Data Format" = filter (Advertisment)));
         }
         field(130; "Royality Cost"; Decimal)
         {
