@@ -8,7 +8,7 @@
             "server": "http://localhost",
             "serverInstance": "BC130",
             "authentication": "Windows",
-            "startupObjectId": 50211,
+            "startupObjectId": 50207,
             "port": 13049,
             "startupObjectType": "Page",
             "breakOnError": true,

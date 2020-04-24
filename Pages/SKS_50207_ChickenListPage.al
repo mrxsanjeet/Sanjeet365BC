@@ -45,6 +45,12 @@ page 50207 "Chicken List"
 
                 end;
             }
+            action("Company info Wizard")
+            {
+                Caption = 'Testing Company info Wizard';
+                Image = Setup;
+                RunObject = page "CompanyInfoWizard";
+            }
         }
     }
 }
