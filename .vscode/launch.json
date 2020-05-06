@@ -8,11 +8,11 @@
             "server": "http://localhost",
             "serverInstance": "BC130",
             "authentication": "Windows",
-            "startupObjectId": 50207,
+            "startupObjectId": 50215,
             "port": 13049,
             "startupObjectType": "Page",
             "breakOnError": true,
-            "schemaUpdateMode": "Synchronize"
-        }
+            "schemaUpdateMode":"Synchronize"   
+              }
     ]
 }
